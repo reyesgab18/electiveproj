@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.spacer{
+    height: 5%;
+
+}
+
+body{
+    /* background-image: url('../Assets/loginbg1.png'); */
+    background: url('../Assets/loginbg1.png') no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* LOGIN CONTAINER CYKA */
+
+.logincont {
+    background-color: white;
+    box-shadow: 0 0 100px 29px rgba(0, 0, 0, 0.25);
+    max-width: 1191px;
+    max-height: 739px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+@media (max-width: 1075px){
+    .logincont {
+        flex-direction: column;
+        max-height: 1000px;
+    }
+
+    body{
+        margin: 10vh;
+        overflow: scroll;
+    }
+}
+
+/* COLUMN 1 CYKA */
+
+.column1 {
+    position: relative;
+    height: 635px;
+    width: 521px;
+    background-image: url('../Assets/canvaslogin.png');
+    border-radius: 50px;
+}
+
+/* COLUMN 2 CYKA */
+.column2 {
+    height: 635px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column2 p{
+    color: #8E8E93;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.column2 img{
+    height: 71px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputcont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#forgot{
+    text-align: end;
+    text-decoration: underline;
+    color: #8E8E93;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.passinput{
+    background-color: #F5F5F5;
+    height: 62px;
+    width: 461px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.passinput span{
+    padding: 20px;
+    color: #8E8E93;
+}
+
+
+/* BUTTONS CYKA */
+
+.inputs{
+    width: 461px;
+    height: 62px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    color: #8E8E93;
+    padding: 20px;
+    font-size: 16px;
+}
+
+button{
+    width: 461px;
+    height: 62px;
+    border: 1px solid #0C3B2E;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#primary {
+    background-color: #0C3B2E;
+    color: white;
+}
+
+#secondary{
+    background-color: transparent;
+    color: #0C3B2E;
+}
+
+/* DYNAMIC MESSAGE BLYAT */
+
+.status-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.status-message.success {
+    background-color: #4caf50;
+    color: white;
+}
+  
+.status-message.error {
+    background-color: #f44336;
+    color: white;
+}
+  
