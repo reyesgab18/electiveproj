@@ -90,19 +90,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    gap: 5px;
 }
 
 .inputcont{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    align-items: end;
+    width: 461px;
 }
 
 #forgot{
-    text-align: end;
+    text-align: center;
     text-decoration: underline;
     color: #8E8E93;
     cursor: pointer;
+    width: auto;
 }
 
 .buttons{

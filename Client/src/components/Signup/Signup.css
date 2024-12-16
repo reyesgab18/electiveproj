@@ -1,0 +1,96 @@
+
+
+.signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.signupcont{
+    background-color: white;
+    box-shadow: 0 0 100px 29px rgba(0, 0, 0, 0.25);
+    max-width: 1191px;
+    max-height: 739px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+.signup-column1{
+    height: 635px;
+    width: 461px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-column2{
+    position: relative;
+    height: 635px;
+    width: 521px;
+    background-image: url('../Assets/canvassignup.png');
+    border-radius: 50px;
+}
+
+.navbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 100%;
+}
+
+.navbutton a{
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+    color: #8E8E93;
+}
+
+.empty{
+    width: auto;
+}
+
+.signup-inputcont{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 461px;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+#firstname{
+    width: 300px;
+    height: 62px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    color: #8E8E93;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#surname{
+    width: 100%;
+    height: 62px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    color: #8E8E93;
+    padding: 20px;
+    font-size: 16px;
+}

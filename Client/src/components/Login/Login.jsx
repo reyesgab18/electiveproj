@@ -82,6 +82,7 @@ const LoginSignup = () => {
                     <p>Please login to your account</p>
                 </div>
                 <div className="inputcont">
+                    <input type="radio" name="" id="" />
                     <input type="text" name = "username" value = {credentials.username} onChange = {handleInputChange}className = "inputs" placeholder='Username'/>
                     <div className="passinput">
                         <input name = "password" value = {credentials.password} onChange = {handleInputChange}
